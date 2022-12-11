@@ -6,13 +6,13 @@ Update PW generator code to generate a password based on created prompts, commma
 * Added custom variables that name the criteria selections.
 * Created custom criteria arrays for simplicity and accuracy
 * Added functions to write and generate acceptable passwords based on defined criteria.
-* Create if statements  
+* Create if and else statements that help define required criteria for the generator
 
 
 
 ## PW Gen Screenshot 
 
-  <img src="/Londa-pw-gen/Assets/pwscreenshot.jpg"/>
+ <img src='/Londa-pw-gen/Assets/pwscreenshot.jpg'>
   
 
 PW Gen Link
