@@ -12,7 +12,7 @@ Update PW generator code to generate a password based on created prompts, commma
 
 ## PW Gen Screenshot 
 
- <img src='/Londa-pw-gen/Assets/pwscreenshot.jpg'>
+ <img src='./Assets/pwscreenshot.jpg'>
   
 
 PW Gen Link

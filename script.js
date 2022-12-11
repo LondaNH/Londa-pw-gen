@@ -2,6 +2,7 @@
 var characterLength = 8;
 var responsesArr = [];
 
+//list of Arrays for choices
 var specialCharacterArr = ["!", "@", "#", "$", "%", "^", "&", "*", "?", ")", "(", "/", "+", "-", "~"];
 var upperCaseArr = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var lowerCaseArr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -13,7 +14,7 @@ var generateBtn = document.querySelector("#generate");
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// Write password to the #password input
+// If/else statement if correct criteria isnt selected. 
 function writePassword() {
   var correctPrompts = getPrompts();
   var passwordText = document.querySelector("#password");
@@ -27,7 +28,7 @@ function writePassword() {
 }
 
 }
-
+//Loop code for password prompt function  
 function generatePassword () {
   var password = "";
   for(var i = 0; i < characterLength; i++) {
@@ -37,7 +38,7 @@ function generatePassword () {
   return password;
 
 }
-
+//List the prompts and functions with if statements
 function getPrompts(){
   responsesArr = [];
 
